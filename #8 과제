@@ -1,0 +1,188 @@
+//1.	사칙연산
+
+#include <stdio.h>
+int main(void)
+{
+	int x = 20;
+	int y = 10;
+
+	int sum = 0;
+	int diff = 0;
+	int mul = 0;
+	int div = 0;
+
+	sum = x + y;
+	diff = x - y;
+	mul = x * y;
+	div = x / y;
+
+	printf("두수의합: %d \n", sum);
+	printf("두수의차: %d \n", diff);
+	printf("두수의곱: %d \n", mul);
+	printf("두수의몫: %d \n", div);
+
+	return 0;
+}
+
+
+//2.	두수의합 
+ 
+#include <stdio.h>
+#pragma warning(disable:4996)
+
+int main(void)
+{
+	int x;
+	int y;
+	int sum;
+
+	
+	printf("첫번째 숫자를 입력하시오.:");
+	scanf("%d", &x);
+	
+	printf("두번째 숫자를 입력하시오.:");
+	scanf("%d", &y);
+
+	sum = x + y;
+
+	printf("두수의 합 : %d\n", sum);
+
+
+
+	return 0;
+}
+
+
+//3.	연봉
+ 
+ 
+#include <stdio.h>
+#pragma warning(disable:4996)
+
+int main(void)
+{
+	int ysalary;
+	int msalary;
+
+	printf("연봉을 입력하시오.(단위: 만원): ");
+	scanf("%d", &ysalary);
+
+	
+	msalary = ysalary / 12;
+
+	printf("월 수령액 (단위: 만원):  %d \n", msalary);
+	
+	return 0;
+}
+
+
+//4.	환율
+ 
+#include <stdio.h>
+#pragma warning(disable:4996)
+
+int main(void)
+{
+	int krw;
+	double usd;
+
+	double rate;
+
+	printf("환율을 입력하시오.:");
+	scanf("%lf", &rate);
+
+	printf("원화금액을 입력하시오.:");
+	scanf("%d", &krw);
+
+	usd = krw / rate;
+
+	printf("원화 %d원은 %f달러입니다.", krw, usd);
+}
+
+
+5.	총점과 평균 구하는 프로그램
+
+ 
+#include <stdio.h>
+#pragma warning(disable:4996)
+
+int main(void)
+{
+	int kor_s;
+	int math_s;
+	int eng_s;
+	int phy_s;
+	int bio_s;
+	int  total_;
+	double score_total;
+
+
+	printf("국어 점수를 입력하세요. :");
+	scanf("%d", &kor_s);
+
+	printf("수학 점수를 입력하세요. :");
+	scanf("%d", &math_s);
+
+	printf("영어 점수를 입력하세요. :");
+	scanf("%d", &eng_s);
+
+	printf("물리 점수를 입력하세요. :");
+	scanf("%d", &phy_s);
+
+	printf("생물학 점수를 입력하세요. :");
+	scanf("%d", &bio_s);
+
+	total_ = (kor_s + math_s + eng_s + phy_s + bio_s);
+	printf("다섯과목의 총점은 %d 입니다.", total_);
+
+
+	score_total = total_ / 5.0;
+	printf("다섯과목의 평균은 %lf 입니다.", score_total);
+
+
+
+	return 0;
+
+}
+
+
+//6.	마일을 미터로 변환
+ 
+#include <stdio.h>
+#pragma warning(disable:4996)
+
+int main(void)
+{
+	double mile;
+	double meter;
+
+	printf("마일거리를 입력하시오.:");
+	scanf("%lf", &mile);
+
+	meter = mile * 1609;
+
+	printf("%lf 마일은 %lf 미터입니다.", mile, meter);
+	return 0;
+}
+
+
+//7.	화씨를 섭씨로  변환
+ 
+#include <stdio.h>
+#pragma warning(disable:4996)
+
+int main(void)
+{
+     float Ftem;
+     float Ctem;
+
+	printf("화씨값을 입력하시오.:");
+	scanf("%f", &Ftem);
+
+	Ctem = (5.0f / 9.0f)*(Ftem - 32);
+
+	printf("섭씨값은 %f 도 입니다.\n", Ctem);
+
+	return 0;
+}
+
