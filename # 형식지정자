@@ -1,0 +1,34 @@
+/* 1. printf(): 모니터에 출력하기위한 출력함수
+printf의 형식지정자 %d:정수, %f: 실수, %c: 문자, %s: 문자열 
+[printf("%d", 변수이름)]
+
+
+   2. scanf (): 키보드에서 입력을 위한 입력함수
+scanf의 형식지정자 %d:정수, %f: float실수, %lf: double 실수, %c: 문자, %s: 문자열 
+[scantf("%d", &변수주소)] */
+   
+   
+   //calculation
+   #include <stdio.h>
+   int main (void) 
+   {
+   int x;
+   int y;
+   int sum, diff, div, mul;
+   
+   x=20;
+   y=10;
+   
+   sum= x+y;
+   diff=x-y;
+   mul=x*y;
+   div=x/y;
+   
+   printf("두수의 합: %d", sum);
+   printf("두수의 차: %d", diff);
+   printf("두수의 곱: %d", mul);
+   printf("두수의 몫: %d", div);
+            
+   return 0;
+            
+   }
