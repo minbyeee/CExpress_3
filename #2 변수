@@ -18,5 +18,5 @@ int width, height =200; (X) height만 초기화
 
 printf("Hello World!"); 에서 "Hello World!"는 인수로서 printf함수에 입력
 
-인수: 함수에게 전달하는 
+인수: 함수에게 전달하는 */
 
