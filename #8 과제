@@ -136,7 +136,7 @@ int main(void)
 	printf("다섯과목의 총점은 %d 입니다.", total_);
 
 
-	score_total = total_ / 5.0;
+	score_total = total_ / 5.0; //5.0은 소수점 나타내기위해 계산 float형식으로 연산하려면 소수점을 붙여서 연산
 	printf("다섯과목의 평균은 %lf 입니다.", score_total);
 
 
