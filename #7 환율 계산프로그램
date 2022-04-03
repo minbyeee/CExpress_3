@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(void)
 {
-	double rate; //float 안됨
+	double rate; //float 안됨실수를 저장하는 더블로쓰기
 	double usd;
 	int krw;
 
