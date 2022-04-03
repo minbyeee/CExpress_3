@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(void)
+{
+	int yearMoney;
+	float monthMoney;
+	float mul;
+
+	printf("연봉을 입력하시오.:(단위: 만원)");
+	scanf("%d", &yearMoney);
+
+	mul = yearMoney / 12;
+	printf("월수령액:(단위: 만원)%f", mul);
+  return 0;
+}
