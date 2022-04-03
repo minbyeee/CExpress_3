@@ -32,3 +32,9 @@ scanf의 형식지정자 %d:정수, %f: float실수, %lf: double 실수, %c: 문
    return 0;
             
    }
+   
+   
+   //scanf
+   
+   float ratio= 0.0;
+   scanf("%f", ratio );
