@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main(void)
+{
+	float r;
+	float sphere;
+	float mul;
+
+	printf("반지름을 입력하시오.:");
+	scanf("%f", &r);
+
+	mul = 3.141592 * r*r;
+	printf("원의 면적:%.1f", mul); // %.nf는 소수점 정하면서 형식지정
+}
